@@ -1,0 +1,45 @@
+p{
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blue;
+}
+
+h1{
+    color:yellow;
+    background-color: blue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+h2{
+    color: violet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    color: white;
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ol{
+    color: brown;
+    background-color: darkturquoise;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.destacado{
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#caja1{
+    width: max-content;
+    height: max-content;
+    background-color: brown;
+    color: azure;
+    box-sizing: border-box;
+}
+
