@@ -1,12 +1,12 @@
 p{
-    color: yellow;
+    color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: blue;
+    background-color: blueviolet;
 }
 
 h1{
-    color:yellow;
-    background-color: blue;
+    color: violet;
+    background-color: blueviolet;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
@@ -24,8 +24,8 @@ ul{
 }
 
 ol{
-    color: brown;
-    background-color: darkturquoise;
+    color: white;
+    background-color: blueviolet;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -38,7 +38,7 @@ ol{
 #caja1{
     width: max-content;
     height: max-content;
-    background-color: brown;
+    background-color: blueviolet;
     color: azure;
     box-sizing: border-box;
 }
