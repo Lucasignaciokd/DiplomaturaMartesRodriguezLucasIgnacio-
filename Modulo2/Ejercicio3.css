@@ -1,0 +1,43 @@
+.Contenedor{
+    background-color: lightgreen;
+    display: inline-flex;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+
+    
+}
+
+#rojo{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color: red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#azul{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color:blue;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#amarillo{
+    flex-wrap: nowrap;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color: yellow;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   
+}
