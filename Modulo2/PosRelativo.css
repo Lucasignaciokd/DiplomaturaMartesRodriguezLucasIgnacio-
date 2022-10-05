@@ -1,0 +1,39 @@
+#contenedor{
+    position: relative;
+    background-color: blueviolet;
+    width: 60%;
+    height: 500px;
+    margin-bottom: 20px;
+    
+}
+
+#verde{
+    position: absolute;
+    height: 150px;
+    width: 30px;
+    top: 0px;
+    left: 50px;
+    background-color: green;
+    bottom: 20px;
+   
+}
+
+#celeste{
+    height: 150px;
+    width: 30px;
+    top: 0px;
+    left: 100px;
+    position: absolute;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+#amarillo{
+    height: 150px;
+    width: 30px;
+    top: 0px;
+    left: 150px;
+    position: absolute;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
