@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let i;
+        let j;
+        let mayor=0;
+        const largo= parseInt(prompt("Ingrese el largo de su vector", )) 
+        let vector=[largo];
+        for(i=0;i<largo;i++){
+            vector[i]=parseInt(prompt("Ingrese el valor de esta posicion", )) 
+        }
+
+        for(j=0;j<largo;j++){
+            if(vector[j]>mayor)
+            mayor= vector[j];
+        }
+
+        document.write(mayor);
+    </script>
+    
+</body>
+</html>
