@@ -1,0 +1,61 @@
+
+.boton {
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.alternar {
+    background:red;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background: red;
+    border: 2px solid black;
+}
+
+.alternar.activo {
+    background:orange;
+}
+
+.alternar1 {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background: blue;
+    border: 2px solid black;
+}
+
+.alternar1.activo {
+    background: lightseagreen;
+}
+
+.alternar2 {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.alternar2.activo {
+    background: lightyellow;
+}
+
+
+.body.alternar.activo{
+    background-color: red;
+}
+.body.alternar1.activo{
+    background-color: blue;
+}
+.body.alternar2.activo{
+    background-color: yellow;
+}

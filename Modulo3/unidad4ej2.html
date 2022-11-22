@@ -1,0 +1,27 @@
+<html>
+ <head>
+  <script language="Javascript">
+ 
+   var primeraVez = true;
+ 
+   function limpia(){
+    if (primeraVez){
+	 document.formulario.mensaje.value = "";
+	 primeraVez = false;
+    }
+   }
+ 
+   function cuenta(){
+    document.formulario.total.value = document.formulario.mensaje.value.length;
+   }
+ 
+  </script>
+ </head>
+ <body>
+    <form name="formulario">
+     <textarea name="mensaje" onfocus="limpia()" onkeyup="cuenta()" rows="10" cols="50">
+     </textarea>
+     <input type="text" name="total" size="5" maxlength="3" disabled> Caracteres
+    </form>
+   </body>
+  </html>
