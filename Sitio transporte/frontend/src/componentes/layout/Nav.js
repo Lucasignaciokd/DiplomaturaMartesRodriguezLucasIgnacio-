@@ -1,10 +1,20 @@
+import HomePages from "../../pages/HomePages";
+import React  from "react";
+import { Link } from "react-router-dom";
+
 const Nav= (props) => {
-    return(
+    return (
         <nav>
+            <div>
             <ul>
-                <li></li>></a></li>
+                <li><Link to="/Home">Home</Link></li>
+                <li><Link to= "/Viernes">Viernes</Link></li>
+                <li><Link to= "/Sabado">Sabado</Link></li>
+                <li><Link to= "/Domingo">Domingo</Link></li>
+                <li><Link to= "/Contacto">Contacto</Link></li>
             </ul>
-        </nav>>
+            </div>
+        </nav>
     )
 }
 

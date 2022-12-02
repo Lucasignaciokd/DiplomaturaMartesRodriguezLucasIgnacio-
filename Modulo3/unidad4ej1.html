@@ -16,18 +16,23 @@
     </p>
     </div> 
     <script>
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+       
+        
       
         const alternar = document.getElementsByClassName('alternar')[0];          
              alternar.addEventListener('click', function(e) {
             e.currentTarget.classList.toggle('activo');
+            cambiarFondo(red);
+            });
 
-        
-        });
-       
+            
         const alternar1 = document.getElementsByClassName('alternar1')[0];          
              alternar1.addEventListener('click', function(e) {
             e.currentTarget.classList.toggle('activo');
-            /*body.classList.add("alternar")*/
+            
           });
         const alternar2 = document.getElementsByClassName('alternar2')[0];          
              alternar2.addEventListener('click', function(e) {
