@@ -1,17 +1,23 @@
 import HomePages from "../../pages/HomePages";
 import React  from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { Button } from 'react-bootstrap';
 
 const Nav= (props) => {
     return (
         <nav>
             <div>
             <ul>
-                <li><Link to="/Home">Home</Link></li>
-                <li><Link to= "/Viernes">Viernes</Link></li>
-                <li><Link to= "/Sabado">Sabado</Link></li>
-                <li><Link to= "/Domingo">Domingo</Link></li>
-                <li><Link to= "/Contacto">Contacto</Link></li>
+                <li><NavLink to="/Home" className={({ isActive }) => isActive ? "activo" : undefined }
+                >Home</NavLink></li>
+                <li><NavLink to= "/Viernes" className={({ isActive }) => isActive ? "activo" : undefined }
+                >Viernes</NavLink></li>
+                <li><NavLink to= "/Sabado" className={({ isActive }) => isActive ? "activo" : undefined }
+                >Sabado</NavLink></li>
+                <li><NavLink to= "/Domingo" className={({ isActive }) => isActive ? "activo" : undefined }
+                >Domingo</NavLink></li>
+                <li><NavLink to= "/Contacto" className={({ isActive }) => isActive ? "activo" : undefined }
+                >Contacto</NavLink></li>
             </ul>
             </div>
         </nav>

@@ -16,28 +16,28 @@ const PagDomingo = (props) => {
                 </tr> 
             </thead>
             <tr>
-                <td>1<td>Bayern Munich</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>1</td><td>Bayern Munich</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>2<td>Francia</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>2</td><td>Francia</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>3<td>Barcelona</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>3</td><td>Barcelona</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>4<td>PSG</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>4</td><td>PSG</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>5<td>Liverpool</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>5</td><td>Liverpool</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>6<td>Juventus</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>6</td><td>Juventus</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>7<td>Real Madrid</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>7</td><td>Real Madrid</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>8<td>Santos</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>8</td><td>Santos</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
         </table>
 
@@ -50,28 +50,28 @@ const PagDomingo = (props) => {
                 </tr> 
             </thead>
             <tr>
-                <td>1<td>-</td><td>-</td><td>-</td></td>
+                <td>1</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>2<td>-</td><td>-</td><td>-</td></td>
+                <td>2</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>3<td>-</td><td>-</td><td>-</td></td>
+                <td>3</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>4<td>-</td><td>-</td><td>-</td></td>
+                <td>4</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>5<td>-</td><td>-</td><td>-</td></td>
+                <td>5</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>6<td>-</td><td>-</td><td>-</td></td>
+                <td>6</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>7<td>-</td><td>-</td><td>-</td></td>
+                <td>7</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>8<td>-</td><td>-</td><td>-</td></td>
+                <td>8</td><td>-</td><td>-</td><td>-</td>
             </tr>
         </table>
 

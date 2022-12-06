@@ -13,28 +13,33 @@ const PagViernes = (props) => {
                 </tr> 
             </thead>
             <tr>
-                <td>1<td>Argentina</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>1</td>
+                <td>Argentina</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
             </tr>
             <tr>
-                <td>2<td>Boca</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>2</td><td>Boca</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>3<td>Barcelona</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>3</td><td>Barcelona</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>4<td>Chelsea</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>4</td><td>Chelsea</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>5<td>Flamengo</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>5</td><td>Flamengo</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>6<td>Borussia Dortmund</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>6</td><td>Borussia Dortmund</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>7<td>Manchester City</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>7</td><td>Manchester City</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>8<td>Brasil</td><td>0</td><td>0</td><td>0</td><td>0</td></td>
+                <td>8</td><td>Brasil</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
         </table>
 
@@ -50,30 +55,30 @@ const PagViernes = (props) => {
                 <tr>
                     <th>Posicion</th> <th>Nombre</th> <th>Goles</th> <th>Equipo</th>
                 </tr> 
-            </thead>
+            </thead>x|
             <tr>
-                <td>1<td>-</td><td>-</td><td>-</td></td>
+                <td>1</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>2<td>-</td><td>-</td><td>-</td></td>
+                <td>2</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>3<td>-</td><td>-</td><td>-</td></td>
+                <td>3</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>4<td>-</td><td>-</td><td>-</td></td>
+                <td>4</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>5<td>-</td><td>-</td><td>-</td></td>
+                <td>5</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>6<td>-</td><td>-</td><td>-</td></td>
+                <td>6</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>7<td>-</td><td>-</td><td>-</td></td>
+                <td>7</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td>8<td>-</td><td>-</td><td>-</td></td>
+                <td>8</td><td>-</td><td>-</td><td>-</td>
             </tr>
         </table>
        
