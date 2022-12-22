@@ -1,0 +1,212 @@
+font-family: 'Noto Serif', serif;
+font-family: 'Quicksand', sans-serif;
+body{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    padding: 16px 0;
+    background: #35905c;
+    background: linear-gradient(90deg,#35905c 0%, rgba(157,157,157,0.48) 80%);
+    background: -webkit-linear-gradient(90deg,#35905c 0%, rgba(157,157,157,0.48) 80%);
+    background: -moz-linear-gradient(90deg,#35905c 0%, rgba(157,157,157,0.48) 80%);
+}
+
+header h1{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 100px;
+    color: grey;
+    display: inline-block;
+    position:relative;
+    bottom: 35px;
+}
+
+nav{
+    background: rgba(160,180,147,0.69);
+    background: linear-gradient(90deg,rgba(160,180,147,0.69) 0%, rgba(41,218,129,0.48) 80%);
+    background: -webkit-linear-gradient(90deg,rgba(160,180,147,0.69) 0%, rgba(41,218,129,0.48) 80%);
+    background: -moz-linear-gradient(90deg,rgba(160,180,147,0.69) 0%, rgba(41,218,129,0.48) 80%);   
+    margin-bottom: 20px;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+}
+
+nav ul li{
+    flex-grow: 1;
+   
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: grey;
+}
+
+footer{
+    background-color: black;
+    clear: both;
+    color: aqua;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo{
+    background-color: ghostwhite;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: black;
+    font-weight: 400;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background: rgba(160,180,147,0.69);
+    background: linear-gradient(90deg,rgba(160,180,147,0.69) 0%, rgba(0,255,0,0.48) 80%);
+    background: -webkit-linear-gradient(90deg,rgba(160,180,147,0.69) 0%, rgba(0,255,0,0.48) 80%);
+    background: -moz-linear-gradient(90deg,rgba(160,180,147,0.69) 0%, rgba(0,255,0,0.48) 80%);
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.sedes{
+    width: 25%;
+    background: rgba(160,180,147,0.69);
+    background: linear-gradient(90deg,rgba(160,180,147,0.69) 0%, rgba(0,0,0,0.48) 80%);
+    background: -webkit-linear-gradient(90deg,rgba(160,180,147,0.69) 0%, rgba(0,0,0,0.48) 80%);
+    background: -moz-linear-gradient(90deg,rgba(160,180,147,0.69) 0%, rgba(0,0,0,0.48) 80%);
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    border: solid 1px black;
+    padding: 20px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.galeria img{
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box ;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+.contacto{
+    display: flex;
+    gap: 25px;
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 20px;
+}
+
+.datos ul li{
+    font-size: 18px;
+}
+
+.formulario p{
+    display: flex;
+}
+.formulario p label{
+    min-width: 80px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+
+}
+
+.formulario p input{
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 6px 10px;
+}
+
+.formulario p textarea{
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 6px 10px;
+    resize: none;
+    height: 150px;
+}
+.formulario input[type="submit"]{
+    background-color: grey;
+    box-shadow: 0 0 10px rgba(0, 0,0,0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    cursor: pointer;
+}
+
+
