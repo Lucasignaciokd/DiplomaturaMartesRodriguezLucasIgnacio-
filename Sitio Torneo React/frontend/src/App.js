@@ -10,6 +10,7 @@ import PagViernes from "./pages/PagViernes";
 import PagSabado from "./pages/PagSabado";
 import PagDomingo from "./pages/PagDomingo";
 import ContactoPage from "./pages/ContactoPage";
+import NovedadesPage from "./pages/NovedadesPage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="Sabado" element={<PagSabado/>}/>
         <Route path="Domingo" element={<PagDomingo/>}/>
         <Route path="Contacto" element={<ContactoPage/>}/>
+        <Route path="Novedades" element={<NovedadesPage/>}/>
       </Routes>
       </BrowserRouter>
       <Footer/>
