@@ -1,4 +1,4 @@
-const HomePages= (props) => {
+const HomePage= (props) => {
     return(
         <main className="holder">
 
@@ -30,4 +30,4 @@ const HomePages= (props) => {
     )
 }
 
-export default HomePages;
+export default HomePage;

@@ -1,14 +1,13 @@
 import React  from "react";
 
 
-const PagSabado = (props) => {
+const DomingoPage = (props) => {
     return (
         <main className="holder">
              <h2>Buenas jugadores, en esta seccion habra toda la informacion respecto a cada torneo, actualizado fecha a fecha.
             Los torneos de los Viernes se juega de 20 a 1, en Stanford Bridge. Los Sabados se juega de 20 a 00 en Parque de los Princepes y los Domingo de 14 a 18 en Santiago Bernabeu.
         </h2>
-        
-        <h1>Sabados</h1>
+        <h1>Domingo</h1>
         <table>
             
             <thead>
@@ -17,28 +16,28 @@ const PagSabado = (props) => {
                 </tr> 
             </thead>
             <tr>
-                <td>1</td><td>Argentina</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <td>1</td><td>Bayern Munich</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>2</td><td>Boca</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <td>2</td><td>Francia</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
                 <td>3</td><td>Barcelona</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>4</td><td>Brasil</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <td>4</td><td>PSG</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>5</td><td>Inter</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <td>5</td><td>Liverpool</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>6</td><td>Francia</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <td>6</td><td>Juventus</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>7</td><td>Milan</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <td>7</td><td>Real Madrid</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
             <tr>
-                <td>8</td><td>Real Madrid</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <td>8</td><td>Santos</td><td>0</td><td>0</td><td>0</td><td>0</td>
             </tr>
         </table>
 
@@ -72,7 +71,7 @@ const PagSabado = (props) => {
                 <td>7</td><td>-</td><td>-</td><td>-</td>
             </tr>
             <tr>
-                <td></td>8<td>-</td><td>-</td><td>-</td>
+                <td>8</td><td>-</td><td>-</td><td>-</td>
             </tr>
         </table>
 
@@ -84,13 +83,13 @@ const PagSabado = (props) => {
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="img/Sabadof1.png" alt="Fecha 1"></img>
+                <img class="d-block w-100" src="img/domingof1.png" alt="Fecha 1"></img>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="img/sabadof2.png" alt="Fecha 2"></img>
+                <img class="d-block w-100" src="img/domignf2.png" alt="Fecha 2"></img>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="img/sabadof3.png" alt="Fecha 3"></img>
+                <img class="d-block w-100" src="img/f3domingo.png" alt="Fecha 3"></img>
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -102,23 +101,18 @@ const PagSabado = (props) => {
               <span class="sr-only">Next</span>
             </a>
           </div>
-
-
-        <div><img src="img/stadium-paris-saint-germain.jpg" alt="Parque de los Principes"></img></div>
-        <div><img src="img/argentina1986.jpg" alt="Argentina" srcset="Argentina"></img></div>
-        <div><img src="img/Barcelona2015.jpg" alt="Barcelona" srcset="Barcelona"></img></div>
-        <div><img src="img/boca2003.jpg" alt="Boca" srcset="Boca"></img></div>
-        <div><img src="img/brasil.jpg" alt="Brasil" srcset="Brasil"></img></div>
-        <div><img src="img/francia.jpg" alt="Francia" srcset="Francia"></img></div>
-        <div><img src="img/inter.jpg" alt="Inter" srcset="Inter"></img></div>
-        <div><img src="img/RealMadrid.jpg" alt="Real Madrid" srcset="Real Madrid"></img></div>
-        <div><img src="img/milan2007.jpg" alt="Milan" srcset="Milan"></img></div>
-       
-    
-
+        <div><img src="img/98.jpg" alt="Santiago Bernabeu"></img></div>
+        <div><img src="img/barcelona2019.jpg" alt="Barcelona" srcset="Barcelona"></img></div>
+        <div><img src="img/bayern2013.jpg" alt="Bayern Munich" srcset="Bayern Munich"></img></div>
+        <div><img src="img/francia2018.jpg" alt="Francia" srcset="Francia"></img></div>
+        <div><img src="img/juventus.jpg" alt="Juventus" srcset="Juventus"></img></div>
+        <div><img src="img/liverpool2019.jpg" alt="Liverpool" srcset="Livepool"></img></div>
+        <div><img src="img/psg.jpeg" alt="Psg" srcset="Psg"></img></div>
+        <div><img src="img/realmadrid2017.jpg" alt="Real Madrid" srcset="Real Madrid"></img></div>
+        <div><img src="img/santos2011.jpg" alt="Santos" srcset="Santos"></img></div>
 
         </main>
     );
 }
 
-export default PagSabado;
+export default DomingoPage;

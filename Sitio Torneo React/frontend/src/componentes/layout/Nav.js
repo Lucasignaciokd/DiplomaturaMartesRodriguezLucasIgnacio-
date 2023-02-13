@@ -1,7 +1,7 @@
-import HomePages from "../../pages/HomePages";
+import HomePage from "../../pages/HomePage";
 import React  from "react";
 import { NavLink } from "react-router-dom";
-import { Button } from 'react-bootstrap';
+
 
 const Nav= (props) => {
     return (
@@ -18,6 +18,8 @@ const Nav= (props) => {
                 >Domingo</NavLink></li>
                 <li><NavLink to= "/Contacto" className={({ isActive }) => isActive ? "activo" : undefined }
                 >Contacto</NavLink></li>
+                <li><NavLink to= "/Novedades" className={({ isActive }) => isActive ? "activo" : undefined }
+                >Novedades</NavLink></li>
             </ul>
             </div>
         </nav>
