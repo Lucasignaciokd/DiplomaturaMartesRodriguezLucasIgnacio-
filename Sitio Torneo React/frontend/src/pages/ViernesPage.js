@@ -55,7 +55,7 @@ const ViernesPage = (props) => {
                 <tr>
                     <th>Posicion</th> <th>Nombre</th> <th>Goles</th> <th>Equipo</th>
                 </tr> 
-            </thead>x|
+            </thead>
             <tr>
                 <td>1</td><td>-</td><td>-</td><td>-</td>
             </tr>
@@ -82,33 +82,28 @@ const ViernesPage = (props) => {
             </tr>
         </table>
        
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="img/ViernesF1.png" alt="Fecha 1"></img>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/ViernesF2.png" alt="Fecha 2"></img>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/ViernesF3.png" alt="Fecha 3"></img>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-          
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/ViernesF1" alt="First slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/ViernesF2" alt="Second slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/ViernesF3" alt="Third slide"/>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        
 
         
         

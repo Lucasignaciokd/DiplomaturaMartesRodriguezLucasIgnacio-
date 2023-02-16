@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./componentes/layout/Header";
 import Nav from  "./componentes/layout/Nav";
 import Footer from "./componentes/layout/Footer";
+import Button from 'react-bootstrap/Button';
+
 
 import HomePage from "./pages/HomePage";
 import ViernesPage from "./pages/ViernesPage";
