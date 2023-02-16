@@ -3,7 +3,7 @@ var router = express.Router();
 var usuariosModel = require("../../models/usuariosModel");
 
 router.get("/", function (req,res,next) {
-    res.render("admin/novedades" , {
+    res.render("admin/login" , {
         layout:"admin/layout",
     });
 });
