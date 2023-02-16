@@ -39,8 +39,8 @@ router.get("/", async function (req,res,next) {
 });
 
 router.get("/agregar", (req,res,next) => {
-    res.render("/admin/agregar" , {
-        layout : "admin/layout"
+    res.render("admin/agregar" , {
+        //layout : "admin/layout"
     })
 });
 
@@ -59,18 +59,18 @@ router.post("/agregar", async (req, res, next) => {
                 ...req.body,
             img_id
             });
-            res.redirect("/admin/novedades")
+            res.redirect("admin/novedades")
         } else {
-            res.render("/admin/agregar", {
-                layout : "admin/layout",
+            res.render("admin/agregar", {
+                //layout : "admin/layout",
                 error: true,
                 message: "Todos los campos son requeridos"
             })
         }
     }catch (error){
         console.log(error)
-        res.render("/admin/agregar", {
-            layout: "/admin/layout",
+        res.render("admin/agregar", {
+            //layout: "admin/layout",
             error:true,
             message: "No se cargo la Novedad"
         })
@@ -88,7 +88,7 @@ router.post("/agregar", async (req, res, next) => {
 
      await novedadesModel.deleteNovedadesById(id);
      res.redirect("/admin/novedades"); 
-});
+}); 
 
 
 
@@ -100,8 +100,8 @@ router.get("/modificar/:id", async (req,res,next) => {
     var novedad = await novedadesModel.getNovedadById(id);
 
     console.log(req.params.id);
-    res.render("/admin/modificar", {
-        layout : "/admin/layout",
+    res.render("admin/modificar", {
+        //layout : "admin/layout",
         novedad
     })
      
@@ -139,12 +139,12 @@ router.post("/modificar" , async (req,res,next) => {
         console.log(obj)
         console.log(req.body.id)
         await novedadesModel.modificarNovedadById(obj,req.body.id);
-        res.redirect("/admin/novedades");
+        res.redirect("admin/novedades");
 
     } catch (error) {
         console.log(error)
-        res.render("/admin/modificar" , {
-            layout: "/admin/layout",
+        res.render("admin/modificar" , {
+            //layout: "admin/layout",
             error:true,
             message: "No se modifico la novedad"
         })

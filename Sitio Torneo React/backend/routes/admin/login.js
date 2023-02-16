@@ -3,8 +3,8 @@ var router = express.Router();
 var usuariosModel = require("../../models/usuariosModel");
 
 router.get("/", function (req,res,next) {
-    res.render("admin/login" , {
-        //layout:"admin/layout",
+    res.render("admin/novedades" , {
+        layout:"admin/layout",
     });
 });
 
@@ -30,8 +30,8 @@ router.post("/", async(req,res,next) => {
             req.session.nombre = data.usuario;
             res.redirect("/admin/novedades");
         } else {
-            res.render("/admin/login", {
-                layout : "/admin/layout",
+            res.render("admin/login", {
+                //layout : "admin/layout",
                 error: true
             });
         }
